@@ -1,0 +1,37 @@
+div {
+  border: solid;
+  border-color: red;
+  border-width: 8px;
+  background-color: pink;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  margin-bottom: 20px;
+}
+
+.container-1 {
+  grid-template-columns: 50% 50%;
+}
+
+.container-2 {
+  grid-template-columns: 20% auto;
+}
+
+.container-3 {
+  grid-template-columns: 20% auto auto;
+}
+
+.container-4 {
+  grid-template-rows: 50% 50%;
+}
+
+.container-5 {
+  grid-template-rows: 20% auto;
+}
+
+.container-6 {
+  grid-template-rows: 20% auto auto;
+}
